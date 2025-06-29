@@ -83,7 +83,7 @@ http://localhost:8080/h2-console
 ```
 
 **Configuração padrão:**
-- JDBC URL: `jdbc:h2:mem:testdb`
+- JDBC URL: `jdbc:h2:mem:fretemsdb`
 - Usuário: `sa`
 - Senha: *(em branco)*
 
