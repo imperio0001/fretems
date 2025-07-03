@@ -98,21 +98,18 @@ http://localhost:8080/h2-console
 
 ## 📁 Estrutura do projeto
 ```
-fretems
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com.fretems
-│   │   │       ├── controller
-│   │   │       ├── model
-│   │   │       └── service
-│   │   └── resources
-│   │       └── application.properties
-│   └── test
-│       └── java
-│           └── com.fretems.service
-├── pom.xml
-└── README.md
+src/
+├── main/
+│   ├── java/com.fretems/
+│   │   ├── controller/        → Endpoints REST
+│   │   ├── dto/               → Objetos de transferência de dados (Request/Response)
+│   │   ├── model/             → Entidades JPA
+│   │   ├── repository/        → Interfaces JPA
+│   │   └── service/           → Regras de negócio
+│   └── resources/
+│       └── application.properties
+└── test/
+    └── java/com.fretems/     → Testes unitários com JUnit
 ```
 
 ---

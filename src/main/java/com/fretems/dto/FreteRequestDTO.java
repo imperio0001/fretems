@@ -1,4 +1,4 @@
-package com.fretems.model;
+package com.fretems.dto;
 
 import jakarta.validation.constraints.*;
 

@@ -1,7 +1,7 @@
 package com.fretems.service;
 
-import com.fretems.model.FreteRequestDTO;
-import com.fretems.model.FreteResponseDTO;
+import com.fretems.dto.FreteRequestDTO;
+import com.fretems.dto.FreteResponseDTO;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,4 +1,4 @@
-package com.fretems.model;
+package com.fretems.dto;
 
 public class FreteResponseDTO {
 

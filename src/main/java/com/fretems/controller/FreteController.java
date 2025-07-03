@@ -1,8 +1,8 @@
 package com.fretems.controller;
 
 
-import com.fretems.model.FreteRequestDTO;
-import com.fretems.model.FreteResponseDTO;
+import com.fretems.dto.FreteRequestDTO;
+import com.fretems.dto.FreteResponseDTO;
 import com.fretems.service.FreteService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
