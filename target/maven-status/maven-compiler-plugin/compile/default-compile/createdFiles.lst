@@ -1,0 +1,15 @@
+com\fretems\domain\model\Anuncio.class
+com\fretems\application\CadastroAnuncioService.class
+com\fretems\dto\AnuncioDTO.class
+com\fretems\controller\UsuarioController.class
+com\fretems\controller\AnuncioController.class
+com\fretems\domain\repository\AnuncioRepository.class
+com\fretems\domain\model\Categoria.class
+com\fretems\domain\model\Usuario.class
+com\fretems\controller\CategoriaController.class
+com\fretems\infrastructure\repository\AnuncioJpaRepository.class
+com\fretems\domain\repository\UsuarioRepository.class
+com\fretems\FreteMsApplication.class
+com\fretems\application\ConsultaAnuncioService.class
+com\fretems\infrastructure\repository\AnuncioRepositoryImpl.class
+com\fretems\domain\repository\CategoriaRepository.class
