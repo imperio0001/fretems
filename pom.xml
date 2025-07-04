@@ -23,6 +23,7 @@
   </properties>
 
   <dependencies>
+    <!-- Spring Web: permite criar APIs REST -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
@@ -34,7 +35,7 @@
       <version>2.3.0</version>
     </dependency>
 
-    <!-- JUnit 5 -->
+    <!-- Spring Data JPA: facilita operações com banco de dados usando JPA -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -52,6 +53,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
+      <!-- Anotações Java (opcional, útil para IDEs e validações) -->
       <groupId>org.jetbrains</groupId>
       <artifactId>annotations-java5</artifactId>
       <version>RELEASE</version>
@@ -69,6 +71,7 @@
     </dependency>
 
     <dependency>
+      <!-- Starter para testes (JUnit 5, Mockito, etc) -->
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>

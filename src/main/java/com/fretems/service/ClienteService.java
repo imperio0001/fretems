@@ -18,7 +18,7 @@ public class ClienteService {
 
         Cliente cliente = Cliente.builder()
                 .nomeCliente(request.getNomeCliente())
-                .documentoCliente(request.getTelefoneCliente())
+                .telefoneCliente(request.getTelefoneCliente())
                 .documentoCliente(request.getDocumentoCliente())
                 .build();
 

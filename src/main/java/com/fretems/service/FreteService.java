@@ -23,11 +23,11 @@ public class FreteService {
 
     }
     private void validarEntrada(FreteRequestDTO request) {
-        if (request.getPeso() == null || request.getPeso() < 0) {
-            throw new IllegalArgumentException("Peso deve ser maior ou igual a zero");
+        if (request.getPeso() == null || request.getPeso() <= 0) {
+            throw new IllegalArgumentException("Peso deve ser maior do que zero");
         }
-        if (request.getDistancia() == null || request.getDistancia() < 0) {
-            throw new IllegalArgumentException("Distância deve ser maior ou igual a zero");
+        if (request.getDistancia() == null || request.getDistancia() <= 0) {
+            throw new IllegalArgumentException("Distância deve ser maior do que zero");
         }
         if (request.getTipoTransporte() == null || request.getTipoTransporte().isBlank()) {
             throw new IllegalArgumentException("Tipo de transporte é obrigatório");
